@@ -1,0 +1,5 @@
+Number WZ_Heizung_SetTemp           "WZ_Heizung Soll-Temperatur [%.1f °C]"  <temperature>   { channel="homematic:HM-CC-RT-DN:ccu:OEQ1710206:4#SET_TEMPERATURE" }
+Number WZ_Heizung_ActTemp           "WZ_Heizung Ist-Temperatur [%.1f °C]"   <temperature>   { channel="homematic:HM-CC-RT-DN:ccu:OEQ1710206:4#ACTUAL_TEMPERATURE" }
+Number WZ_Heizung_ValveState        "WZ_Heizung Ventilstellung [%d %%]"     <heating>       { channel="homematic:HM-CC-RT-DN:ccu:OEQ1710206:4#VALVE_STATE" }
+Number WZ_Heizung_RSSI              "WZ_Heizung RSSI [%d dBm]"              <line>          { channel="homematic:HM-CC-RT-DN:ccu:OEQ1710206:0#RSSI_DEVICE" }
+Switch WZ_Heizung_Battery           "WZ_Heizung Batteriewarnung"            <siren>         { channel="homematic:HM-CC-RT-DN:ccu:OEQ1710206:0#LOWBAT" }
