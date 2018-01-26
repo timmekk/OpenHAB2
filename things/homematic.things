@@ -1,5 +1,5 @@
-Bridge homematic:bridge:ccu [ gatewayAddress="192.168.0.6", gatewayType="ccu" ]
+Bridge homematic:bridge:ccu [ gatewayAddress="192.168.0.68", gatewayType="ccu" ]
 {
-    Thing   HM-CC-RT-DN         OEQ1710206  "Wohnzimmer" @ "Home"
+    Thing   HM-CC-RT-DN         OEQ1710206  
     
 }
