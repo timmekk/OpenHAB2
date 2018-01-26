@@ -1,0 +1,6 @@
+sitemap default label="Home" {
+    Frame label="Wohnzimmer" {
+        Text item=TemperaturWohnzimmerIST
+        Text item=TemperaturWohnzimmerSOLL
+    }
+}
