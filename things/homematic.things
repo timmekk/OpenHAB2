@@ -1,4 +1,4 @@
 Bridge homematic:Bridge:ccu [ gatewayAddress="192.168.0.68"]
 {
-Thing   HM-CC-RT-DN     OEQ1710206  "Heizung Wohnzimmer" @ "Home"
+Thing   HM-CC-RT-DN     OEQ1710206  "Heizung Wohnzimmer" 
 }

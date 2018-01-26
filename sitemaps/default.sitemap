@@ -1,9 +1,0 @@
-sitemap default label="Home" {
-    
-    Text label="Wohnzimmer" {
-        Frame label="Temperaturen"{
-            default item=WZ_Heizung_ActTemp
-            default item=WZ_Heizung_SetTemp
-       }
-    }       
-}
